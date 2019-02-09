@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: c19e252cb9e8e4314bfa01283d5f09d0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmLower.L
+    100004: ArmLower.R
+    100006: ArmUpper.L
+    100008: ArmUpper.R
+    100010: BackLower
+    100012: BackUpper
+    100014: Cube
+    100016: Fingers.L
+    100018: Fingers.R
+    100020: Foot.L
+    100022: Foot.R
+    100024: Hand.L
+    100026: Hand.R
+    100028: Head
+    100030: Hip
+    100032: IK.Ellbow.L
+    100034: IK.Ellbow.R
+    100036: IK.Heel.L
+    100038: IK.Heel.R
+    100040: IK.Knee.L
+    100042: IK.Knee.R
+    100044: LegLower.L
+    100046: LegLower.R
+    100048: LegUpper.L
+    100050: LegUpper.R
+    100052: Root
+    100054: Shoulder.L
+    100056: Shoulder.R
+    100058: //RootNode
+    400000: Armature
+    400002: ArmLower.L
+    400004: ArmLower.R
+    400006: ArmUpper.L
+    400008: ArmUpper.R
+    400010: BackLower
+    400012: BackUpper
+    400014: Cube
+    400016: Fingers.L
+    400018: Fingers.R
+    400020: Foot.L
+    400022: Foot.R
+    400024: Hand.L
+    400026: Hand.R
+    400028: Head
+    400030: Hip
+    400032: IK.Ellbow.L
+    400034: IK.Ellbow.R
+    400036: IK.Heel.L
+    400038: IK.Heel.R
+    400040: IK.Knee.L
+    400042: IK.Knee.R
+    400044: LegLower.L
+    400046: LegLower.R
+    400048: LegUpper.L
+    400050: LegUpper.R
+    400052: Root
+    400054: Shoulder.L
+    400056: Shoulder.R
+    400058: //RootNode
+    2100000: Material
+    4300000: Cube
+    7400000: Armature|Idle
+    7400002: Armature|Walk
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 405467426546b40e5b2ae08a4150acd9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
