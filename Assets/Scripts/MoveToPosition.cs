@@ -13,6 +13,9 @@ public class MoveToPosition : MonoBehaviour
 
     void Update()
     {
-        agent.SetDestination(goal.position);
+        if (this.goal != null)
+        {
+            agent.SetDestination(goal.position);
+        }
     }
 }
