@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1405811028695550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6401034, y: 3.0101202, z: 10.605627}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -114,7 +114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce48176e2283462387c584ac0e93045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitCount: 3
 --- !u!114 &114967853150498740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,7 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26dab64150fed4b3da2b67bf0db308db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
+  knockbackTime: 1
+  kick: 1.8
 --- !u!136 &136379683707361252
 CapsuleCollider:
   m_ObjectHideFlags: 1

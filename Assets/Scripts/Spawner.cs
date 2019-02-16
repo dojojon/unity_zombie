@@ -18,12 +18,12 @@ public class Enemy
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject spawn; public int amount = 1; 
-    public float delaySpawn = 1; 
+    public GameObject spawn; public int amount = 1;
+    public float delaySpawn = 1;
     public bool spawnsDead;
-    private int getAmount; 
-    private float timer; 
-    private int spawned; 
+    private int getAmount;
+    private float timer;
+    private int spawned;
     private int enemyDead;
     public List<Enemy> enemies = new List<Enemy>();
     public void Start()
@@ -39,8 +39,7 @@ public class Spawner : MonoBehaviour
             GameObject instance = Instantiate(spawn, transform);
             enemies.Add(new Enemy(instance, false));
             //Removes the spawned object from the spawner object.
-            instance.transform.parent =
-            null;
+            instance.transform.parent = null;
             instance.SetActive(false);
         }
         ResetRound();
@@ -48,10 +47,10 @@ public class Spawner : MonoBehaviour
 
     public void ResetRound()
     {
-        spawnsDead = false; 
-        getAmount = amount; 
+        spawnsDead = false;
+        getAmount = amount;
         spawned = 0;
-        timer = 0; 
+        timer = 0;
         enemyDead = 0;
     }
 
@@ -83,7 +82,7 @@ public class Spawner : MonoBehaviour
 
                 //Increment the amount spawned count.
                 spawned++;
-            
+
             }
 
             for (int i = enemies.Count - 1; i >= 0; i--)
