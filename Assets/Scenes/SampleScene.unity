@@ -1747,8 +1747,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn: {fileID: 1405811028695550, guid: 927ecec951ce64217876cbd679f97686, type: 2}
-  amount: 1
-  delaySpawn: 1
+  amount: 3
+  delaySpawn: 4
   spawnsDead: 0
 --- !u!4 &1237024190
 Transform:
@@ -2300,8 +2300,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn: {fileID: 1405811028695550, guid: 927ecec951ce64217876cbd679f97686, type: 2}
-  amount: 1
-  delaySpawn: 1
+  amount: 3
+  delaySpawn: 5
   spawnsDead: 0
 --- !u!4 &1538515618
 Transform:
@@ -2644,8 +2644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn: {fileID: 1405811028695550, guid: 927ecec951ce64217876cbd679f97686, type: 2}
-  amount: 1
-  delaySpawn: 1
+  amount: 4
+  delaySpawn: 3
   spawnsDead: 0
 --- !u!4 &1664344609
 Transform:
@@ -2654,7 +2654,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1664344607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.82, y: 1, z: 20.66}
+  m_LocalPosition: {x: -18.82, y: 1, z: -4.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

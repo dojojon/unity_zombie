@@ -18,8 +18,13 @@ public class Enemy
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject spawn; public int amount = 1; public float delaySpawn = 1; public bool spawnsDead;
-    private int getAmount; private float timer; private int spawned; private int enemyDead;
+    public GameObject spawn; public int amount = 1; 
+    public float delaySpawn = 1; 
+    public bool spawnsDead;
+    private int getAmount; 
+    private float timer; 
+    private int spawned; 
+    private int enemyDead;
     public List<Enemy> enemies = new List<Enemy>();
     public void Start()
     {
@@ -43,8 +48,11 @@ public class Spawner : MonoBehaviour
 
     public void ResetRound()
     {
-        spawnsDead = false; getAmount = amount; spawned = 0;
-        timer = 0; enemyDead = 0;
+        spawnsDead = false; 
+        getAmount = amount; 
+        spawned = 0;
+        timer = 0; 
+        enemyDead = 0;
     }
 
     void Update()
